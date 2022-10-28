@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="92762" started-at="2022-04-25T14:21:07 IST" finished-at="2022-04-25T14:22:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="92762" started-at="2022-04-25T14:21:07 IST" finished-at="2022-04-25T14:22:39 IST">
+      <class name="hybrid_testing.demo1">
+        <test-method status="PASS" signature="TT()[pri:0, instance:hybrid_testing.demo1@2e3fc542]" name="TT" duration-ms="92720" started-at="2022-04-25T14:21:07 IST" finished-at="2022-04-25T14:22:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TT -->
+      </class> <!-- hybrid_testing.demo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+<Appendera>
+<Console name="Console" target="SYSTEM_OUT">
+<PatternLayout pattern = "%d [%-6p] %c{1} - %m%n"/>
+</Console>
+<File name="logfile" filename=".\\logs\CustomFramework.log">
+<PatternLayout pattern="%d{yyyy-mm-dd HH:nn:ss.SSS} [%t] %-5level %logger{36} %msg%in"/>
+</File>
+</Appendera>
+<Loggera>
+<Root level="all">
+<AppenderRef ref="Cosole"/>
+<AppenderRef ref="logfile" level="info"/>
+</Root>
+</Loggera>
+</Configuration>

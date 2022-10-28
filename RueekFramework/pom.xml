@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chinagoods.framework.thinkcloud</groupId>
+        <artifactId>think-cloud-build</artifactId>
+        <version>3.1.0.RELEASE</version>
+    </parent>
+    <groupId>RupeekFrame</groupId>
+    <artifactId>RueekFramework</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <rversion>3.1.0.RELEASE</rversion>
+    </properties>
+    <!--OWN Dependencies -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>RueekFramework-domain</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>RueekFramework-repo-api</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>RueekFramework-biz-api</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>RueekFramework-manager-api</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>RueekFramework-commons</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+  <modules>
+    <module>RueekFramework-domain</module>
+    <module>RueekFramework-commons</module>
+    <module>RueekFramework-repo-api</module>
+    <module>RueekFramework-biz-api</module>
+    <module>RueekFramework-manager-api</module>
+    <module>RueekFramework-biz-provider</module>
+    <module>RueekFramework-repo-provider</module>
+    <module>RueekFramework-manager-provider</module>
+    <module>RueekFramework-ctl</module>
+    <module>RueekFramework-apiserver</module>
+    <module>RueekFramework-generator</module>
+    <module>RueekFramework-all</module>
+  </modules>
+</project>

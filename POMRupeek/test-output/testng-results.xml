@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[it is clickable]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41391" started-at="2022-08-22T12:35:10 IST" finished-at="2022-08-22T12:35:52 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41391" started-at="2022-08-22T12:35:10 IST" finished-at="2022-08-22T12:35:52 IST">
+      <class name="org.rupeek.test.TC001_homepage">
+        <test-method status="PASS" signature="startRupeek()[pri:0, instance:org.rupeek.test.TC001_homepage@24a35978]" name="startRupeek" is-config="true" duration-ms="7779" started-at="2022-08-22T12:35:10 IST" finished-at="2022-08-22T12:35:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRupeek -->
+        <test-method status="PASS" signature="hpTest()[pri:0, instance:org.rupeek.test.TC001_homepage@24a35978]" name="hpTest" duration-ms="1445" started-at="2022-08-22T12:35:18 IST" finished-at="2022-08-22T12:35:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[it is clickable]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- hpTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:org.rupeek.test.TC001_homepage@24a35978]" name="closeApp" is-config="true" duration-ms="6843" started-at="2022-08-22T12:35:20 IST" finished-at="2022-08-22T12:35:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="startRupeek()[pri:0, instance:org.rupeek.test.TC001_homepage@24a35978]" name="startRupeek" is-config="true" duration-ms="4605" started-at="2022-08-22T12:35:27 IST" finished-at="2022-08-22T12:35:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRupeek -->
+        <test-method status="PASS" signature="hp1test()[pri:1, instance:org.rupeek.test.TC001_homepage@24a35978]" name="hp1test" duration-ms="1304" started-at="2022-08-22T12:35:31 IST" finished-at="2022-08-22T12:35:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hp1test -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:org.rupeek.test.TC001_homepage@24a35978]" name="closeApp" is-config="true" duration-ms="5839" started-at="2022-08-22T12:35:32 IST" finished-at="2022-08-22T12:35:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="startRupeek()[pri:0, instance:org.rupeek.test.TC001_homepage@24a35978]" name="startRupeek" is-config="true" duration-ms="4352" started-at="2022-08-22T12:35:38 IST" finished-at="2022-08-22T12:35:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRupeek -->
+        <test-method status="PASS" signature="hp2test()[pri:2, instance:org.rupeek.test.TC001_homepage@24a35978]" name="hp2test" duration-ms="4932" started-at="2022-08-22T12:35:43 IST" finished-at="2022-08-22T12:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hp2test -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:org.rupeek.test.TC001_homepage@24a35978]" name="closeApp" is-config="true" duration-ms="4223" started-at="2022-08-22T12:35:48 IST" finished-at="2022-08-22T12:35:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- org.rupeek.test.TC001_homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
